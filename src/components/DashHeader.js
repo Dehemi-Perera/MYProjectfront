@@ -11,6 +11,7 @@ import { useNavigate, Link, useLocation } from 'react-router-dom'
 import { useSendLogoutMutation } from '../features/auth/authApiSlice'
 import useAuth from '../hooks/useAuth'
 import PulseLoader from 'react-spinners/PulseLoader'
+import './DashBoard.css'
 
 const DASH_REGEX = /^\/dash(\/)?$/
 const NOTES_REGEX = /^\/dash\/notes(\/)?$/
